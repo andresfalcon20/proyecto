@@ -5,7 +5,6 @@ import { RegisterScreen } from '../screens/RegisterScreen';
 import { useState } from 'react';
 import { HomeScreen } from '../screens/HomeScreen/HomeScreen';
 
-
  export interface User{
   id: number;
   name: string;
@@ -17,7 +16,7 @@ const users: User[] = [
   {id: 1, name: 'Jean', email: 'jitaz@gmail.com', password: '0993643838Jc'},
   {id: 2, name: 'Ariel', email: 'ariel28@gmail.com', password: '221000'},
   {id: 3, name: 'Luis', email: 'luis@gmail.com', password: '123456'},
-  {id: 4, name: 'Cristian', email: 'cristian@gmail.com', password: '2534623'},
+  {id: 4, name: 'Cristian', email: 'a', password: 'abc'},
 ]
 
 const Stack = createStackNavigator();

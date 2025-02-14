@@ -58,6 +58,7 @@ export const LoginScreen = ({users}: Props) => {
         <TittleComponents title="Iniciar Sesión"/>
         <Image source={require('../../assets/logo.png')} style={styles.logo} />
         <BodyComponents>
+          
             <Text style={styles.tittlePrincipal}>
               Bienvenido 
             </Text>
